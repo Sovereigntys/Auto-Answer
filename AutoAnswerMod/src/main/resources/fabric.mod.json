@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "autoanswer",
+  "version": "${version}",
+  "name": "Auto Answer",
+  "description": "Automatically answers trivia questions and math equations in chat",
+  "authors": [
+    "Sovereigntys"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autoanswer.AutoAnswerMod"
+    ],
+    "modmenu": [
+      "com.autoanswer.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "autoanswer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/7BE2dfz5Mb"
+      }
+    }
+  }
+}

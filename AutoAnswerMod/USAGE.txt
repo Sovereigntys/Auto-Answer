@@ -1,0 +1,64 @@
+========================================
+  AUTO ANSWER MOD - QUICK START GUIDE
+========================================
+
+📦 INSTALLATION:
+1. Put autoanswer-1.0.0.jar in your .minecraft/mods folder
+2. Make sure you have Fabric API installed
+3. (Optional) Install Mod Menu for easy config access
+
+🎯 WHAT IT DOES:
+- Automatically solves math equations in chat
+- Automatically answers your custom prompts
+
+📝 ADDING CUSTOM PROMPTS:
+
+Step 1: Find the config file
+  Location: .minecraft/config/autoanswer.json
+  (Created automatically on first launch)
+
+Step 2: Edit the file
+  {
+    "your prompt": "your answer",
+    "another prompt": "another answer"
+  }
+
+  Example:
+  {
+    "red": "R3ass0n",
+    "blue": "Skywars",
+    "green": "MyAnswer"
+  }
+
+Step 3: Save and reload
+  - Either restart Minecraft
+  - Or use Mod Menu → Auto Answer Mod → Reload Config
+
+🧮 MATH SOLVING:
+  No setup needed! Just works automatically.
+  
+  Examples:
+  - Chat: "5+3" → Mod types: "8"
+  - Chat: "12*4" → Mod types: "48"
+  - Chat: "(10+5)*2" → Mod types: "30"
+
+🎮 WITH MOD MENU:
+  Press ESC → Mods → Auto Answer Mod → Config
+  
+  Buttons:
+  - Open Config File: Opens the config folder
+  - Reload Config: Reloads without restart
+  - How to Use: Shows in-game help
+
+⚡ TIPS:
+- Prompts are case-insensitive ("RED" = "red" = "Red")
+- Prompts match if contained in message ("what color red?" matches "red")
+- There's a 1-second cooldown between auto-answers
+- Config file must be valid JSON (use a JSON validator if needed)
+
+❗ TROUBLESHOOTING:
+- Config not loading? Check JSON syntax at jsonlint.com
+- Not answering? Make sure your prompt is in the message
+- Still issues? Check logs for "Auto Answer Mod" messages
+
+========================================
