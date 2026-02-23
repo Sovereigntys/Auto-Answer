@@ -14,17 +14,6 @@ A Minecraft Fabric mod for version 1.21.4 that automatically solves math equatio
   - Case-insensitive matching
   - Empty by default - you add what you need!
 
-- **✅ Mod Menu Integration**: Easy in-game config access
-  - Open config folder directly from Mod Menu
-  - Reload config without restarting Minecraft
-  - View how many prompts are loaded
-
-- **✅ Toggle Button**: Quick enable/disable in bottom-right corner
-  - Click the button to toggle the mod on/off
-  - Green "AA: ON" when enabled, Red "AA: OFF" when disabled
-  - Shows "Mod Enabled!" in green chat text when activated
-  - Shows "Mod Disabled!" in red chat text when deactivated
-
 ## Installation
 
 1. Install Minecraft 1.21.4 with Fabric Loader
@@ -45,7 +34,7 @@ The mod automatically solves any math it sees in chat:
 2. **Add your prompts**:
 ```json
 {
-  "red": "R3ass0n",
+  "red": "Sovereigntys",
   "blue": "Skywars",
   "green": "MyAnswer"
 }
@@ -94,3 +83,4 @@ Output: `build/libs/autoanswer-1.0.0.jar`
 ## License
 
 MIT License
+
